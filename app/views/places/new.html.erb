@@ -4,5 +4,12 @@
 
 <div>
 
+<%= simple_form_for @place do |f| %> 
+
+   <%= f.input :title %>
+   <%= f.input :address %>
+   <%= submit_tag 'Create' %>
+
+<% end %>
 
 </div>
